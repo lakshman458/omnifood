@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    width: auto;
+    display: inline;
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+}
+
+h1{
+  display:inline-block;  
+  height: 200px;
+  width: 500px;
+  background-color: blue;
+}

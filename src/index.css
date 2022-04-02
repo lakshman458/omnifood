@@ -11,3 +11,160 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ .container{
+   font-family: sans-serif;
+   line-height: 1;
+   font-weight: 400;
+   color: #555;
+ }
+ .hero{
+   max-width: 130rem;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+ .hero-img{
+   width: 100%;
+ }
+ .primary-heading{
+   font-size: 5.2rem;
+   font-weight: 700;
+   line-height: 1.05;
+   color: #333;
+   letter-spacing: -0.5px;
+ }
+
+ .hero-description{
+   font-size: 2rem;
+   line-height: 1.5;
+ }
+
+
+ .container{
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+.main-header{
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+
+}
+
+nav a:link{
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  
+  
+}
+
+.post-header{
+  margin-bottom: 40px;
+}
+ h1,h2,h3{
+  color: #1098ad;
+ }
+ h1{
+   font-size: 26px;
+   font-family: sans-serif;
+   text-transform: uppercase;
+  
+ }
+
+ h2{
+   font-size: 40px;
+   font-family: sans-serif;
+   margin-bottom: 30px;
+ }
+ h3{
+   font-size: 30px;
+   font-family: sans-serif;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+ h4{
+   font-size: 20px;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+ }
+
+ p{
+   font-size: 22px;
+   font-family: sans-serif;
+   line-height:1.5 ;
+   margin-bottom: 15px;
+ }
+
+ li{
+   font-size: 20px;
+   font-family: sans-serif;
+   margin-bottom: 10px;
+   
+ }
+
+ ol,ul{
+   margin-left: 50px;
+   margin-bottom: 20px;
+ }
+
+ article header p {
+   font-style: italic;
+ }
+
+ .related-author{
+   font-weight: bold;
+ }
+
+ article{
+   margin-bottom: 50px;
+ }
+
+ aside ul li{
+   list-style: none;
+ }
+
+ aside{
+   background-color: #f7f7f7;
+   border-top: 5px solid   #1098ad;
+   border-bottom: 5px solid   #1098ad; 
+   padding: 50px 0;
+ }
+
+ a{
+   
+   color:  #1098ad;
+   text-decoration: none;
+
+ }
+
+ a:hover{
+   color: red;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+
+ a:visited{
+  
+ }
+
+ a:active{
+   background-color: orange;
+ }
+
+ li:first-child{
+   font-weight: bold;
+ }
+
+ .footer_content{
+   font-size: 20px;
+ }
